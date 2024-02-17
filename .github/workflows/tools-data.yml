@@ -38,7 +38,7 @@ jobs:
         id: test-data-check
         uses: actions/cache@v4.0.0
         with:
-          path: sources/5etools-mirror-2.github.io
+          path: sources
           key: ${{ steps.test-data-key.outputs.cache_key }}
           lookup-only: true
           enableCrossOsArchive: true
